@@ -15,6 +15,12 @@ class Question(models.Model):
         now = timezone.now()
         # no older than 1 day, and also not from the future
         return now - datetime.timedelta(days=1) <= self.pub_date <= now
+    # allows to sort the column on the admin page
+    was_published_recently.admin_order_field = 'pub_date'
+    # will be shown as an icon on the admin page
+    was_published_recently.boolean = True
+    # goes to the column header on the admin page
+    was_published_recently.short_description = 'Published recently?'
 
 
 class Choice(models.Model):
