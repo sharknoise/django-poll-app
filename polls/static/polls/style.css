@@ -2,6 +2,10 @@ body {
     background: white url("images/background.gif") no-repeat;
 }
 
+ul {
+    background-color: lightgrey;
+}
+
 li a {
     color: green;
 }
