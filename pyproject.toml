@@ -8,6 +8,8 @@ authors = ["sharknoise <sharknoise@gmail.com>"]
 python = "^3.6"
 django = "^3.0.8"
 psycopg2-binary = "^2.8.5"
+django-bootstrap4 = "^2.2.0"
+isort = "4.3.21"
 
 [tool.poetry.dev-dependencies]
 wemake-python-styleguide = "^0.14.0"
