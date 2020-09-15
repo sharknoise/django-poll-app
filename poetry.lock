@@ -551,8 +551,8 @@ pygments = ">=2.4,<3.0"
 typing_extensions = ">=3.6,<4.0"
 
 [metadata]
-content-hash = "3ca47d7be9acd55d7fdc10d57fe26225f44c2a7d807f004180a0584afe34facd"
-python-versions = "3.8.2"
+content-hash = "98314d9c23ac6d2fd20bd2889760a11268c5af824b157199835896a78fb6e6a2"
+python-versions = "3.8.5"
 
 [metadata.files]
 asgiref = [
